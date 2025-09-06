@@ -1,16 +1,45 @@
-# meal_app
+# Meal App
 
-A new Flutter project.
+##  Overview
 
-## Getting Started
+Meal App is a Flutter project designed to showcase different types of cuisines from around the world. Each cuisine displays meals associated with it, along with descriptions, prices, and other details.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+##  Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Browse global food categories.
+* Each category contains related meals with detailed information.
+* Simple and modern user interface.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Screens
+
+* **Home Screen**: Displays all food categories.
+* **Meal Screen**: Shows a list of meals related to a selected category.
+* **Meal Details Screen**: Provides detailed information about a specific meal (description, price, features).
+
+---
+
+##  Widgets
+
+* **Category Item**: Represents a single cuisine category.
+* **Meal Item**: Represents a single meal.
+
+---
+
+##  Tech Stack
+
+* Flutter
+* Dart
+
+---
+
+##  Purpose
+
+This project serves as a hands-on Flutter practice for learning:
+
+* Screen navigation.
+* Data management and presentation.
+* Widget reusability.
