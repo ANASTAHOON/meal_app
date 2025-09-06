@@ -35,7 +35,6 @@ class MealDetailsScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // High-quality food image
                   ClipRRect(
 
                     borderRadius: BorderRadius.circular(20),
@@ -47,7 +46,6 @@ class MealDetailsScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 40),
-                  // Details Card
                   Card(
                     elevation: 6,
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
@@ -112,7 +110,6 @@ class MealDetailsScreen extends StatelessWidget {
                   Center(
                     child: ElevatedButton(
                       onPressed: () {
-                        // Add to cart logic here
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text('Added to Cart!')),
                         );
