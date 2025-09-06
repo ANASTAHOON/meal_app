@@ -110,7 +110,6 @@ class MealDetailsScreen extends StatelessWidget {
                   Center(
                     child: ElevatedButton(
                       onPressed: () {
-                        // Add to cart logic here
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text('Added to Cart!')),
                         );
