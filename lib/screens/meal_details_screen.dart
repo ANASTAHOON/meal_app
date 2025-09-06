@@ -19,6 +19,8 @@ class MealDetailsScreen extends StatelessWidget {
         ),
 
         ),
+        iconTheme: const IconThemeData(color: Colors.white, size: 30),
+
         centerTitle: true,
       ),
       body: Expanded(
