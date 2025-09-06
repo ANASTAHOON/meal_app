@@ -15,7 +15,6 @@ class MealItem extends StatelessWidget {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         child: Row(
           children: [
-            // Left side: High-quality food image
             ClipRRect(
               borderRadius: const BorderRadius.horizontal(left: Radius.circular(20)),
               child: Image.asset(
@@ -25,7 +24,6 @@ class MealItem extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            // Right side: Black rounded container with meal name and arrow
             Expanded(
               child: Container(
                 height: 120,
